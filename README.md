@@ -18,6 +18,7 @@
 
 ### Formateadores y LSPs
 <code>sudo pacman -S clang-format clang-tidy texlive-core  # Para C/Latex</code>
+<br>
 <code>sudo pacman -S tectonic  # Alternativa moderna a pdflatex</code>
 
 ### Terminal Kitty (opcional, pero recomendado)
@@ -27,13 +28,18 @@
 
 ### LSPs
 <code>pyright        # Para Python</code>
+
 <code>clangd         # Para C/C++</code>
+
 <code>ruff           # Linter/formateador Python</code>
 
 ### Herramientas
 <code>black          # Formateador Python</code>
+
 <code>debugpy        # Debugger Python</code>
+
 <code>codelldb       # Debugger C/C++</code>
+
 
 ## Plugins
 - ToogleTerm
