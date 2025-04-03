@@ -17,9 +17,9 @@
 <code>sudo pacman -S imagemagick ghostscript</code>
 
 ### Formatters y LSPs
-<code>sudo pacman -S clang-format clang-tidy texlive-core</code>  (Para C/Latex)
+<code>sudo pacman -S clang-format clang-tidy texlive-core</code>  (For C/Latex)
 <br>
-<code>sudo pacman -S tectonic</code>  (Alternativa moderna a pdflatex)
+<code>sudo pacman -S tectonic</code>  (Modern alternative to pdflatex)
 
 ### Kitty Terminal (optional)
 <code>sudo pacman -S kitty</code>
