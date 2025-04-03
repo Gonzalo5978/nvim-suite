@@ -4,39 +4,39 @@
 
 ## 📦 Pacman packages:
 
-### Neovim y herramientas básicas
+### Nvim & basics
 <code>sudo pacman -S neovim git</code>
 
-### Dependencias para Treesitter/LSP
+### Treesitter/LSP dependencies
 <code>sudo pacman -S tree-sitter clang nodejs python-pynvim</code>
 
-### Herramientas para terminal/plugins
+### Terminal/plugins tools
 <code>sudo pacman -S ripgrep fd lazygit xclip wl-clipboard</code>
 
-### Soporte para imágenes (Snacks.image)
+### Immages support (Snacks.image)
 <code>sudo pacman -S imagemagick ghostscript</code>
 
-### Formateadores y LSPs
-<code>sudo pacman -S clang-format clang-tidy texlive-core  # Para C/Latex</code>
+### Formatters y LSPs
+<code>sudo pacman -S clang-format clang-tidy texlive-core</code>  (Para C/Latex)
 <br>
-<code>sudo pacman -S tectonic  # Alternativa moderna a pdflatex</code>
+<code>sudo pacman -S tectonic</code>  (Alternativa moderna a pdflatex)
 
-### Terminal Kitty (opcional, pero recomendado)
+### Kitty Terminal (optional)
 <code>sudo pacman -S kitty</code>
 
 ## 🔍 Mason packages:
 
 ### LSPs
-<code>pyright        # Para Python</code>
+<code>pyright</code>        (For Python)
 
-<code>clangd         # Para C/C++</code>
+<code>clangd</code>         (For C/C++)
 
-<code>ruff           # Linter/formateador Python</code>
+<code>ruff</code>           (Python Linter/formatte)
 
 ### Herramientas
-<code>black          # Formateador Python</code>
+<code>black</code>          (Python Formatter)
 
-<code>debugpy        # Debugger Python</code>
+<code>debugpy</code>        (Python Debugger)
 
 <code>codelldb       # Debugger C/C++</code>
 
@@ -54,3 +54,5 @@ Added language parsers for <b>C</b> and <b>Python</b>.
 
 ### Notes
 The file <i>last_theme.txt</i> saves the colorscheme you wan to save.
+
+The repo include a kitty.conf file that can move to <code>~/.conf/kitty</code> folder to load it.
