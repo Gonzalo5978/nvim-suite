@@ -38,7 +38,7 @@
 
 <code>debugpy</code>        (Python Debugger)
 
-<code>codelldb       # Debugger C/C++</code>
+<code>codelldb</code>       (Debugger C/C++)
 
 
 ## Plugins
